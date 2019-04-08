@@ -28,7 +28,7 @@ from datetime import datetime
 import PIL.Image
 import PIL.ImageTk
 
-OWM_API_KEY = '60605dc0c4ea32dc8351a1a32fff72a4'
+OWM_API_KEY = '0605dc0c4ea32dc8351a1a32fff72a4'
         
 #======================
 # functions
