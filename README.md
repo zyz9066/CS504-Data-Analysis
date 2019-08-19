@@ -1,4 +1,4 @@
-# CS504-Programming-Languages-for-Data-Analysis
+# CS504-Data-Analysis
 ## Main Project
 ### Introduction
 
