@@ -15,7 +15,7 @@ The code is written in Python with Jupyter Notebook which is a tool that allows 
 
 As for viewers, it doesn't need to run the code. So for the libraries used in this project, kindly refer to project report for details.
 
-## Supplenmentary
+## Supplementary
 ### Introduction
 
 Author: Tianye Zhao
