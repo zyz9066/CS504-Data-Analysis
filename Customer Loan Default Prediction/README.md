@@ -12,8 +12,8 @@ A customer profile consists of a list of bank transactions preceding the loan re
 * **days_before_request** – days before loan request for each transaction loan_amount – amount loaned to customer by bank
 * **loan_date** – date of loan
 
-## outcome:
-* **isDefault** – did the customer pay back (isDefault=0) or not pay back (isDefault=1)?
+## Outcome:
+**isDefault** – did the customer pay back (isDefault=0) or not pay back (isDefault=1)?
 
 *isDefault* is given for the first 10000 customers. The job is to assign a probability to isDefault for the remaining 5000 customers.
 Train model on the training data (instances 0 - 9999) and make predictions on the test data (instances 10000- 14,999). The test data is the same format as training data, except it does not contain the isDefault column.
