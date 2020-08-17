@@ -37,7 +37,7 @@ Threshold both train and test data to a minimum value of 20, maximum of 16,000.
 ## Selecting top genes by class
 
 * Remove from train data genes with fold differences across samples less than 2. Fold difference is defined as a ratio between maximum and minimum values (Max/Min) for a given data set.
-* For each class, generate subsets with top 2, 4, 6, 8, 10, 12, 15, 20, 25, and 30 top genes with the highest absolute [T-value](https://www.biologyforlife.com/t- test.html). The objective of this step is to find for each class the set of best genes to discriminate it from the other classes.
+* For each class, generate subsets with top 2, 4, 6, 8, 10, 12, 15, 20, 25, and 30 top genes with the highest absolute [T-value](https://www.biologyforlife.com/t-test.html). The objective of this step is to find for each class the set of best genes to discriminate it from the other classes.
 * For N = 2, 4, 6, 8, 10, 12, 15, 20, 25, 30 combine top genes for each class into one file (removing duplicates, if any) and call the resulting file *pp5i_train.topN.gr.csv*.
 * Add the class as the last column, remove sample no, transpose each file to "genes-in-columns" format.
 
