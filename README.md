@@ -1,4 +1,4 @@
-# CS504-Data-Analysis
+# Data-Analysis
 
 ## Supplementary
 ### Introduction
